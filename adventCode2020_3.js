@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-var input = fs.readFileSync('./input_3.txt', 'utf8')
+var input = fs.readFileSync('./fileInput_day3.txt', 'utf8')
               .split('\n')
               .map(x=> x.split(''))
 
