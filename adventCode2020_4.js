@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 
-const input = fs.readFileSync('./input_day4.txt', 'utf8').split('\n\n')
+const input = fs.readFileSync('./fileInput_day4.txt', 'utf8').split('\n\n')
 
 const fields =  ['byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid', 'cid']
 
